@@ -1,2 +1,2 @@
 # Simple-Portofolio-HMTL-CSS
-Tugas Praktikum 1 Mata Kuliah Pemrograman Web
+Tugas Praktikum 1 Mata Kuliah Pemrograman Web Bagian 1
