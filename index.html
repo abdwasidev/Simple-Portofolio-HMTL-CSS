@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>HTML & CSS - 20081010165</title>
+    <style>
+    body{
+        width: auto;
+        background-color: white;
+        padding: 30px;
+    }
+    
+    h1 {
+        font-size: 30;
+        text-align: center;
+        color: #cdc1ff;
+    }
+    h3 {
+        color: #226f54;
+    }
+
+    li.menu {
+        padding: 0px 5px;
+        list-style: none;
+        display:inline;
+    }
+    li.socialmedia {
+        padding: 10px 0px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-weight:bold;
+    }
+    
+    button {
+        background-color: #cdc1ff;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 4em 1em;
+    }
+
+    input[type=text],[type=email], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    input[type=submit] {
+        background-color: #cdc1ff;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    </style>
+    </head>
+    <body>
+        <div class="menu">
+            <center>
+                <ul>
+                    <li class="menu"><button><a href="#">Home</a></button></li>
+                    <li class="menu"><button><a href="#about-me">About Me</a></button></li>
+                    <li class="menu"><button><a href="#education">Education</a></button></li>
+                    <li class="menu"><button><a href="#contact">Contact</a></button></li>
+                    <li class="menu"><button><a href="#followme">Follow Me</a></button></li>
+                </ul>
+            </center>
+        </div>
+        <div class="container">
+            <div id="about-me">
+                <h1>Introduction</h1>
+                <p>Perkenalkan nama saya Abdul Wasi' Al-Afif. </p>
+                <p>Saya adalah mahasiswa informatika dari Universitas Pembagunan Nasional "Veteran Jawa Timur.</p>
+                <p>Saat ini, saya sedang belajar mengenai pemrograman website di mata kuliah Pemrograman Website.</p>
+                <p>Materi yang saya pelajari di mata kuliah pemrograman web, antara lain adalah HTML dan HTML5, CSS dan CSS3, <br>Javascript, Jquery, PHP dan lain-lain.</p>
+            </div>
+            <div id="education">
+                <h1>Education</h1>
+                <div>
+                    <h3>UPN "Veteran" Jawa Timur</h3>
+                    <h4>2020 - Present</h4>
+                    <p>Informatika</p>
+                </div>
+                <div>
+                    <h3>SMA Negeri 3 Lamongan</h3>
+                    <h4>2017 - 2020</h4>
+                    <p>IPA</p>
+                </div>
+                <div>
+                    <h3>SMP Negeri 3 Lamongan</h3>
+                    <h4>2014 - 2017</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="contact">
+                <h1>Contact Form</h1>
+                <form action="#">
+                    <input type="text" id="fullname" name="fullname" placeholder="Nama Anda" required>
+                    <input type="email" id="email"  name="email" placeholder="Email Anda" required>
+                    <textarea id="subject" name="subject" placeholder="Apa yang ingin anda sampaikan?" style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div id="followme">
+                <h1>Follow Me</h1>
+                <ul>
+                    <li class="socialmedia"><b>Facebook</b> = fb.com/abdwasidev</li>
+                    <li class="socialmedia"><b>Instagram</b> = instagram.com/abdwasidev</li>
+                    <li class="socialmedia"><b>Line</b> = line.me/@abdwasidev</li>
+                    <li class="socialmedia"><b>Telegram</b> = t.me/@abdwasidev</li>
+                    <li class="socialmedia"><b>Github</b> = github.com/abdwasidev</li>
+                    <li class="socialmedia"><b>Email</b> = abdulwasialafif@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
